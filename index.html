@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento JS</title>
+    <!-- Carregando o CSS -->
+    <link href="css/estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Mini Calculadora</h1>
+    <form name="calc" method="POST" action="">
+        <fieldset>
+            <legend>Mini Calculadora</legend>
+            <label>Número 1:</label>
+            <input type="number" name="valor1" id="valor1" />  <!-- broken row -->
+            <label>Número 2:</label>
+            <input type="number" name="valor2" id="valor2" /> 
+            <label>Resultado:</label>
+            <input type="number" name="resultado" id="resultado" readonly /> <br>
+            
+            <input type="button" value="Limpar" class="limpar" onclick="limpar()" />
+            <input type="button" value="Calcular" class="botao limpar" onclick="calcular()" />
+        </fieldset>
+        
+    </form>
+    <!-- carregando o JS -->
+    <!-- <script src="projeto.js"></script> -->
+    <script src="soma.js"></script>
+</body>
+</html>

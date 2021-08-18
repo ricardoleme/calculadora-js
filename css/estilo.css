@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background: #F3FEB0;
+    font-family: 'Dancing Script','Arial','Times New Roman';
+}
+
+fieldset {
+    width: 25%;
+    border: solid #812F33 1px;
+}
+
+legend {
+    font-size: 90%;
+}
+
+label {
+    font-size: 12px;
+    display: block; /* cada elemento em uma linha - sem precisar do br! */
+}
+
+.botao{
+    float: right;
+    width: auto; /* A largura é automaticamente definida pelo texto */
+}
+
+.limpar{
+    background-color: #812F33;
+    border: none; /* remove a borda do botão */
+    color: #FFFFFF;
+    font-size: 9px;
+    text-align: center;
+    margin-top: 16px;
+    padding: 4px;
+    font-family: inherit; /* herda do principal */
+}
+
